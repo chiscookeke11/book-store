@@ -13,7 +13,7 @@ const Hero = () => {
             </div>
             <div className="search-input"> 
               
-              <input type="search" placeholder='Search for a location...'/>
+              <input type="text" placeholder='Search for a location...'/>
               <button>Continue</button>
             </div>
            
@@ -31,6 +31,10 @@ const Hero = () => {
             <div className="extra-images pencil"><img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734698069/Group_2_frosv1.svg" alt="" /></div>
             <div className="extra-images atom"><img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734698070/Group_1_ssx2rx.svg" alt="" /></div>
             <div className="extra-images monitor"><img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734746603/monitor_orssvm.png" alt="" /></div>
+            <div className="extra-images gear"><img src="https://res.cloudinary.com/dwedz2laa/image/upload/v1734867949/gear_i1n3ra.svg" alt="" /></div>
+            <div className="extra-images ">
+              <div className="innerbox"></div>
+            </div>
      
     </section>
   )

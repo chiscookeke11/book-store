@@ -84,7 +84,7 @@
 .extra-images {
   position: absolute;
   background: transparent;
-  animation: levitate 0.7s cubic-bezier(0.25, 0.1, 0.25, 1) infinite alternate;
+  animation: levitate 1s cubic-bezier(0.25, 0.1, 0.25, 1) infinite alternate;
 }
 
 @keyframes levitate {
@@ -147,7 +147,12 @@ to {
     right: 32%;
    top: 16%;  
 }
-
+.extra-images.gear{
+  width: 40px;
+  height: 40px;
+  right: 32%;
+  bottom: 4%;
+}
 
 
 
