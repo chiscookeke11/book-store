@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/herosection/Hero'
 import PointBanner from '../components/pointsbanner/PointBanner'
+import Tracks from '../components/Tracks'
 
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
     }} >
         <Hero/>
         <PointBanner/>
+        <Tracks/>
     </div>
   )
 }
