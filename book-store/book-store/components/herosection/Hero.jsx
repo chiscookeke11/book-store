@@ -3,6 +3,7 @@ import "./heroStyle.css"
 
 const Hero = () => {
   return (
+    <div className='pb-[100px]'>
     <section className='hero-section' >
 
         <div className="text">
@@ -46,6 +47,7 @@ const Hero = () => {
             </div>
      
     </section>
+    </div>
   )
 }
 
