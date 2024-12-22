@@ -3,7 +3,7 @@ import "./heroStyle.css"
 
 const Hero = () => {
   return (
-    <section className='hero-section' >
+    <section className='hero-section bg-green-700' >
 
         <div className="text">
             <div className="top-text">

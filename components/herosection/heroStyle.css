@@ -48,6 +48,8 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  background-color: #fff;
+  border-radius: 50px;
 }
 .hero-section .search-input input {
   flex-grow: 1;
@@ -80,8 +82,18 @@
   font-size: 1.1rem;
 }
 .extra-images {
-    position: absolute;
-    background: transparent;
+  position: absolute;
+  background: transparent;
+  animation: levitate 0.7s cubic-bezier(0.25, 0.1, 0.25, 1) infinite alternate;
+}
+
+@keyframes levitate {
+from {
+  transform: translateY(0);
+}
+to {
+  transform: translateY(10px);
+}
 }
 .extra-images img{
     width: 100%;
